@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --green: #B9FF66;
+  --gray: #292A32;
+}
+
+@theme {
+  --color-green: var(--green);
+  --color-gray: var(--gray);
 }
 
 

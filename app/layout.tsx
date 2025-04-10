@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { groteskFont } from "./ui/font";
+import Navigation from "@/features/shell/navigation";
+import Footer from "@/features/shell/footer";
 
 export const metadata: Metadata = {
   title: "Positivus",
@@ -15,9 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${groteskFont.className}`}
+        className={`${groteskFont.className} lg:px-25 py-15 `}
       >
-        {children}
+        <Navigation />
+        <main className="mt-16 mb-35">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
