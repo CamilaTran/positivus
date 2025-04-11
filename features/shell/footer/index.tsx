@@ -7,7 +7,7 @@ import NewsletterForm from "@/features/home/components/newsletter-form"
 
 const Footer = () => {
     return (
-        <footer className="bg-black px-20 py-14 rounded-t-[45px]" aria-label="footer">
+        <footer className="bg-dark px-20 py-14 rounded-t-[45px]" aria-label="footer">
             <div className="flex justify-between">
                 <Image src="./logos/logo-white-text.svg" width={180} alt="positivis logo" height={29} />
 
