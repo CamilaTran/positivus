@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://benevolent-axolotl-ae9d1b.netlify.app/
+
+# Sitemaps
+Sitemap: https://benevolent-axolotl-ae9d1b.netlify.app/sitemap.xml
