@@ -1,7 +1,11 @@
+import { ReactElement } from "react";
+
 interface ButtonProps {
-    content: string;
+    content?: string;
     className?: string;
     type: "outlined" | "filled";
+    icon?: ReactElement;
+    label?: string;
 }
 
 const buttonStyles = {
@@ -10,12 +14,13 @@ const buttonStyles = {
 }
 
 
-const Button = ({ content, className = "", type }: ButtonProps) => {
+const Button = ({ content, className = "", type, icon, label = "" }: ButtonProps) => {
     return (
         <button
-            aria-label={content}
-            className={`${buttonStyles[type] ?? ""}  ${className} rounded-[14px] text-lg py-5 px-9 cursor-pointer h-fit w-fit`}
+            aria-label={content ?? label}
+            className={`rounded-[14px] text-lg py-5 px-9 cursor-pointer h-fit w-fit ${buttonStyles[type] ?? ""}  ${className} `}
         >
+            {icon}
             {content}
         </button>
     )
