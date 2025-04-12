@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const buttonStyles = {
     outlined: "border-1 border-black hover:bg-black hover:text-white transition-all duration-300",
-    filled: ""
+    filled: "bg-black text-white"
 }
 
 
