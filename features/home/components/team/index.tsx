@@ -14,7 +14,7 @@ const Team = () => {
                 }
             </div>
 
-            <Button content="See all team" className="bg-black text-white float-right clear-both" type="filled" />
+            <Button content="See all team" className="bg-black text-white float-right clear-both" variant="filled" />
 
         </div>
     )

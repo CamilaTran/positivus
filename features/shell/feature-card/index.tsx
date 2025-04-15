@@ -34,7 +34,7 @@ const FeatureCard = ({ link, content, icon, index }: FeatureCardProps) => {
             <Heading content={content} className={`text-3xl whitespace-pre-line ${theme.title}`} />
             <Link className="flex items-center gap-10" href={link} aria-label={`Learn more about ${content}`}>
                 <Button
-                    type="filled"
+                    variant="filled"
                     label={content}
                     className={`!w-10 !h-10 rounded-full relative !p-0 ${theme.icon.bg} group `}
                     icon={

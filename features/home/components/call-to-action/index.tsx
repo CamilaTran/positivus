@@ -6,7 +6,7 @@ const CallToAction = () => {
         <div className="flex flex-col gap-[1.625rem] max-w-125">
             <h3 className="text-3xl text-black">Let’s make things happen</h3>
             <p className="text-lg">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-            <Button content="Get your free proposal" type="filled" className="bg-black text-white" label="Get your free proposal"/>
+            <Button content="Get your free proposal" variant="filled" className="bg-black text-white" label="Get your free proposal"/>
         </div>
         <div className="absolute -top-5 right-33">
             <Image alt="proposal illustration" src='./proposal-illustration.svg' width={359} height={395} />

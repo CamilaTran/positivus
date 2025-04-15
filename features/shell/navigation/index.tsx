@@ -23,7 +23,7 @@ const Navigation = () => {
 
                     ))}
                 </ul>
-                <Button content="Request a quote" type="outlined" />
+                <Button content="Request a quote" variant="outlined" />
             </div>
         </div>
 
